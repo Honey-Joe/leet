@@ -60,7 +60,7 @@ const Company = () => {
                 and training, we offer numerous services to businesses.
               </p>
             </div>
-            <div>
+            <div className="flex justify-end">
               <button className="py-2 px-4 rounded-lg font-medium bg-[#014BAE] text-white font-[Poppins]">
               Business Opportunities 
               </button>
