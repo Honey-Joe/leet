@@ -4,11 +4,11 @@ const Explore = () => {
   return (
     <>
       <div className="max-w-[100%]">
-        <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 py-[100px] lg:py-[40px]">
+        <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 py-[100px]">
           <div className="flex flex-col gap-8 items-end">
             <div className="flex gap-5 justify-center items-center">
               <div>
-                <p className="font-[Poppins] text-[20px] ">Start Exploring</p>
+                <p className="font-[Poppins] text-[18px] ">Start Exploring</p>
               </div>
               <div>
                 <img src={explore} alt="explore" />

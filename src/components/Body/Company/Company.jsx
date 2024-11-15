@@ -11,7 +11,7 @@ const Company = () => {
   return (
     <>
       <div className="max-w-[100%]">
-        <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto py-[40px]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] gap-10 mx-auto py-[40px]">
           <div className="flex flex-col gap-10">
             <div className="relative">
               <div className="absolute left-0 top-0 z-30">
@@ -25,12 +25,12 @@ const Company = () => {
               </div>
             </div>
             <div className="pt-10">
-              <p className="font-[Poppins] text-[30px] text-[#259AF3] font-medium">
+              <p className="font-[Poppins] text-[20px] text-[#259AF3] font-medium">
                 Questions, Community & Contests
               </p>
             </div>
             <div>
-              <p className="font-[Poppins] text-base leading-9">
+              <p className="font-[Poppins] text-[14px] leading-9">
                 Over 3550 questions for you to practice. Come and join one of
                 the largest tech communities with hundreds of thousands of
                 active users and participate in our contests to challenge
@@ -48,12 +48,12 @@ const Company = () => {
               </div>
             </div>
             <div className="pt-10">
-              <p className="font-[Poppins] text-[30px] text-[#B7892B]">
+              <p className="font-[Poppins] text-[20px] text-[#B7892B]">
                 Companies & Candidates
               </p>
             </div>
             <div>
-              <p className="font-[Poppins] text-base leading-9">
+              <p className="font-[Poppins] text-[14px] leading-9">
                 Not only does LeetCode prepare candidates for technical
                 interviews, we also help companies identify top technical
                 talent. From sponsoring contests to providing online assessments
