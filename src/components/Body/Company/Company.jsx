@@ -11,7 +11,7 @@ const Company = () => {
   return (
     <>
       <div className="max-w-[100%]">
-        <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] gap-10 mx-auto py-[40px]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] lg:w-[80%] gap-10 mx-auto py-[40px]">
           <div className="flex flex-col gap-10">
             <div className="relative">
               <div className="absolute left-0 top-0 z-30">

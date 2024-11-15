@@ -4,7 +4,7 @@ const Explore = () => {
   return (
     <>
       <div className="max-w-[100%]">
-        <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 py-[100px]">
+        <div className="w-[90%] mx-auto grid grid-cols-1 lg:w-[80%] lg:grid-cols-2 gap-10 py-[100px]">
           <div className="flex flex-col gap-8 items-end">
             <div className="flex gap-5 justify-center items-center">
               <div>
