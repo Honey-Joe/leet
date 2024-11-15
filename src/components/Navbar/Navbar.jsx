@@ -15,21 +15,21 @@ const Navbar = () => {
               <div className=" lg:flex gap-20 absolute -left-6 md:-left-10 top-20 lg:static bg-white w-[115%] md:w-[118%] lg:mt-0 -mt-6 z-50 ">
                 <div>
                   <ul className=" lg:flex lg:gap-9 space-y-3 lg:space-y-0 items-center justify-center ">
-                    <li className=" text-[15px] font-bold font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
+                    <li className=" text-[15px] font-medium font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
                       <a to={"/"}>Premium</a>
                     </li>
                    
-                    <li className="text-[15px] font-bold font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
+                    <li className="text-[15px] font-medium font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
                       <a to={"/about"}>Course</a>
                     </li>
-                    <li className="text-[15px] font-bold font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
+                    <li className="text-[15px] font-medium font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
                       <a to={"/contact"}>Product</a>
                     </li>
-                    <li className="text-[15px] font-bold font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
+                    <li className="text-[15px] font-medium font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
                       <a to={"/Blog"}>Developer</a>
                     </li>
-                    <li className="text-[15px] font-bold font-[Poppins] p-2 text-center lg:p-0  px-3 py-2 rounded-lg flex items-center  text-white justify-center">
-                      <button className="bg-blue-500 px-8 py-2 hover:bg-white border border-[#1176F0] hover:text-[#1176F0] rounded-full font-[Poppins] font-bold text-white ">Sign in </button>
+                    <li className="text-[15px] font-medium font-[Poppins] p-2 text-center lg:p-0  px-3 py-2 rounded-lg flex items-center  text-white justify-center">
+                      <button className="bg-blue-500 px-8 py-2 hover:bg-white border border-[#1176F0] hover:text-[#1176F0] rounded-full font-[Poppins] font-medium text-white ">Sign in </button>
                     </li>
                   </ul>
                 </div>
