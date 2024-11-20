@@ -15,10 +15,10 @@ const Footer = () => {
               <div className="text-[14px] ">
               <ul className='grid grid-cols-3 lg:grid-cols-5 lg:flex-row gap-5  lg:justify-end md:pt-3 lg:p-0 pt-4 text-[14px]'>
                   <li className=' text-[14px] flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#000] group-hover:w-4" id="move"></div> <a href="" className=" font-[poppins] xl:text-[14px] lg:text-[12px] font-medium group-hover:text-[#000] ">About</a></li>
-                  <li className='  flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#000]  group-hover:w-4" id="move"></div><a href="" className=" font-[poppins]  xl:text-[14px] lg:text-[12px] font-medium group-hover:text-[#000]"> Contact</a></li>
-                  <li className='  flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#000] group-hover:w-4" id="move"></div><a href="" className=" font-[poppins]  xl:text-[14px] lg:text-[12px] font-medium group-hover:text-[#000]">Help Center</a></li>
-                  <li className='  flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#000] group-hover:w-4" id="move"></div><a href="" className=" font-[poppins]  xl:text-[14px] lg:text-[12px] font-medium group-hover:text-[#000]"> Conditions</a></li>
-                  <li className='  flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#000] group-hover:w-4" id="move"></div><a href="" className=" font-[poppins]  xl:text-[14px] lg:text-[12px] font-medium group-hover:text-[#000]"> Privacy Policy</a></li>
+                  <li className='  flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#000]  group-hover:w-4" id="move"></div><a href="" className=" font-[poppins]  xl:text-[14px] lg:text-[12px] font-medium text-nowrap group-hover:text-[#000]"> Contact</a></li>
+                  <li className='  flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#000] group-hover:w-4" id="move"></div><a href="" className=" font-[poppins]  xl:text-[14px] lg:text-[12px] font-medium text-nowrap group-hover:text-[#000]">Help Center</a></li>
+                  <li className='  flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#000] group-hover:w-4" id="move"></div><a href="" className=" font-[poppins]  xl:text-[14px] lg:text-[12px] font-medium text-nowrap group-hover:text-[#000]"> Conditions</a></li>
+                  <li className='  flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#000] group-hover:w-4" id="move"></div><a href="" className=" font-[poppins]  xl:text-[14px] lg:text-[12px] font-medium text-nowrap group-hover:text-[#000]"> Privacy Policy</a></li>
                 </ul>
               </div>
             </div>

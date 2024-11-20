@@ -1,35 +1,36 @@
 import React from "react";
-import { headerimg } from "../../assets/image";
+import { headerimg, headerimg2, headerimg3 } from "../../assets/image";
 
 const Header = () => {
   return (
     <>
-      <div className="max-w-[100%] bg-[url(https://ik.imagekit.io/HoneyJoe/leet/leet%201.png?updatedAt=1731663861314)] bg-cover h-screen">
-        <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] xl:items-center mx-auto py-5 lg:pt-[100px] my-20">
-          <div className="flex lg:justify-center lg:items-center ">
-            <img src={headerimg} alt="header img" className=" shadow-md lg:mt-20 " />
+      <div className="max-w-[100%]">
+        <div className="w-[90%] lg:w-[80] grid grid-cols-1 lg:grid-cols-2 mx-auto pt-[100px] pb-12 gap-6">
+          <div className="flex justify-center items-center order-2 lg:order-1 relative">
+            <div className="p-4 rounded-lg bg-white border w-[70%] shadow-[0px_0px_10px_0px_#000]">
+              <img src={headerimg} alt="header img" className="border inset-10 shadow-[0px_0px_10px_1px_#000] rounded-md p-3" />
+            </div>
+            <div className="absolute left-1 w-[25%] -bottom-12">
+              <img src={headerimg2} alt="" />
+            </div>
           </div>
-          <div className="flex flex-col  items-center lg:gap-6">
-            <div className="">
-              <div className=" flex items-center justify-center gap-2 relative">
-                <h1 className=" text-[24px] text-black text-center font-[Poppins] xl:text-[40px] lg:text-[20px] font-bold lg:text-white md:text-[30px] text-nowrap">
-                  Embark On A
-                </h1>
-              </div>
-              <h1 className=" text-[26px] font-[Poppins] text-center lg:text-[20px] xl:text-[40px] font-bold text-black lg:text-[#fff] md:text-[18px]">
-                Transformative Learning <br className=" hidden xl:block" />
-                Journey At<span className="text-[#1176f0]"> CODE GALATTA</span>
-              </h1>
-              <p className=" font-[Poppins] text-white pt-3  text-center">
-                Discover a world of knowledge and opportunities with our online{" "}
-                <br className="" /> education platform pursue a
-                new career.
-              </p>
+          <div className="flex flex-col gap-4 justify-center items-center order-1 lg:order-2 relative">
+            <div>
+              <p className="font-[Poppins] text-[20px] lg:text-[34px] text-center font-bold">Embark On A <br className="hidden lg:block" /> Transformative Learning <br className="hidden lg:block" /> Journey At CODE GALATTA</p>
             </div>
             <div>
-                <button className="py-3 px-8 rounded-lg font-medium bg-[#014BAE] text-white font-[Poppins]">Explore All</button>
+              <p className="font-[Poppins] text-[14px] lg:text-[16px] text-center">Discover a world of knowledge and opportunities with our online education platform pursue a new career</p>
             </div>
+
+            <div>
+              <button className="font-[Poppins] px-6 py-3 rounded-lg bg-[#014BAE] text-white">EXPLORE ALL</button>
+            </div>
+            <div className="absolute right-1 w-[45%] -bottom-12">
+              <img src={headerimg3} alt="" />
+            </div>
+
           </div>
+
         </div>
       </div>
     </>
