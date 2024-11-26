@@ -11,7 +11,6 @@ const Explore = () => {
                 <p className="font-[Poppins] text-[18px] ">Start Exploring</p>
               </div>
               <div>
-                <img src={explore} alt="explore" />
               </div>
             </div>
 
