@@ -4,15 +4,15 @@ const YoutubeSection = () => {
   return (
     <>
       <div className="max-w-[100%]">
-        <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 py-[40px] items-center">
+        <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 py-[40px] items-center gap-5">
           <div className="flex flex-col gap-7">
             <div>
-              <p className="font-[Poppins] text-start text-[36px] text-[] font-medium">
+              <p className="font-[Poppins] text-start  lg:text-[36px] text-[26px] font-medium">
                 Practice Coding Chalenges & <br /><span className="text-[#014BAE]">prep for the interviews</span> 
               </p>
             </div>
             <div>
-              <p className="font-[Poppins] text-start text-[18px]">
+              <p className="font-[Poppins] text-start lg:text-[18px] text-[14px]">
                 Start practicing your skill now and land the job <br /> of your
                 dreams
               </p>
