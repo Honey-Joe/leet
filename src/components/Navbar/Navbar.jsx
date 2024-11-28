@@ -15,17 +15,17 @@ const Navbar = () => {
               <div className=" lg:flex gap-20 absolute -left-6 md:-left-10 top-20 lg:static bg-white w-[115%] md:w-[118%] lg:mt-0 -mt-6 z-50 ">
                 <div>
                   <ul className=" lg:flex lg:gap-9 space-y-3 lg:space-y-0 items-center justify-center ">
-                    <li className=" text-[15px] font-medium font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
+                    <li className=" text-[15px] font-medium font-[Poppins] px-3 py-2 cursor-pointer text-center rounded-full hover:bg-[#014BAE] hover:text-white ">
                       <a to={"/"}>Premium</a>
                     </li>
                    
-                    <li className="text-[15px] font-medium font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
+                    <li className="text-[15px] font-medium font-[Poppins] px-3 py-2 cursor-pointer text-center rounded-full hover:bg-[#014BAE] hover:text-white">
                       <a to={"/about"}>Course</a>
                     </li>
-                    <li className="text-[15px] font-medium font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
+                    <li className="text-[15px] font-medium font-[Poppins] px-3 py-2 cursor-pointer text-center rounded-full hover:bg-[#014BAE] hover:text-white">
                       <a to={"/contact"}>Product</a>
                     </li>
-                    <li className="text-[15px] font-medium font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
+                    <li className="text-[15px] font-medium font-[Poppins] px-3 py-2 cursor-pointer text-center rounded-full hover:bg-[#014BAE] hover:text-white">
                       <a to={"/Blog"}>Developer</a>
                     </li>
                     <li className="text-[15px] font-medium font-[Poppins] p-2 text-center lg:p-0  px-3 py-2 rounded-lg flex items-center  text-white justify-center">
